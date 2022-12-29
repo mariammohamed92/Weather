@@ -1,0 +1,187 @@
+.bg-color
+{
+    height: 100%;
+}
+.display-temp{
+
+    background-image: url(../img/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.display-temp .search {
+    padding-top: 10% ;
+    width: 40%;
+
+}
+.navbar{
+    background-color: rgba(213, 118, 178, 0.6);
+}
+.navbar-nav{
+    margin-left: 50%;
+}
+.immgg{
+    width: 60px;
+    margin-right: -50px;
+}
+.user{
+    margin-left: -50px;
+}
+.display-temp #search-bar {
+    padding: 5px 15px;
+    border: 6px solid #853e80;
+    border-radius: 20px;
+}
+ #emailInput {
+padding: 5px 15px;
+    margin-left: 30%;
+   border: 6px solid #853e80;
+    border-radius: 20px;
+}
+.btn{
+    border: 3px solid #853e80;
+   box-shadow: #b5b2b5;
+   color: azure;
+}
+.btn:hover{
+    background-color: #853e80;
+    color: azure;
+    border: 3px solid #853e80;
+
+}
+.display-temp .temp-card {
+    width: 32%;
+    border-radius: 8px;
+}
+
+.display-temp .temp-card:first-of-type {
+   background-color: rgba(215, 116, 219, 0.575);
+
+}
+.display-temp .temp-card:first-of-type h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.display-temp .temp-card:first-of-type .day-and-date {
+    background-color: rgba(215, 116, 219, 0.575);
+
+}
+
+.display-temp .temp-card:nth-of-type(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.display-temp .temp-card:nth-of-type(2), 
+.display-temp .temp-card:nth-of-type(3) {
+   background-color: rgba(215, 116, 219, 0.575);
+
+    transition: all 0.3s;
+}
+
+.display-temp .temp-card:nth-of-type(2):hover,
+.display-temp .temp-card:nth-of-type(3):hover {
+   background-color: rgba(215, 116, 219, 0.575);
+
+}
+
+.display-temp .temp-card .day-and-date {
+    /*background-color: #455a64;*/
+    background-color: rgba(215, 116, 219, 0.575);
+
+    color: #f5f6f9;
+    padding: 10px 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.display-temp .temp-card .day-and-date p {margin: 0 !important;}
+
+.display-temp .temp-card #location {
+    font-size: 22px;
+    text-shadow: 0 0 1px #fff,  0 0 1px #fff
+}
+
+.display-temp .temp-card .temp-datails {
+    padding: 25px;
+    color: #fff;
+}
+
+.display-temp .temp-card .temp-datails #today-description,
+.display-temp .temp-card .temp-datails .nextDay-description {
+    font-size: 14px;
+    color: #dde4e8;
+    text-shadow: 0 0 1px #455a64,  0 0 1px #455a64;
+}
+.subscribe .subscribe-info {width: 65%;}
+
+.subscribe .subscribe-img {width: 35%;}
+
+.subscribe .subscribe-info p {color: #455a64;}
+
+.subscribe .subscribe-info input {
+    padding: 5px 15px;
+    border: 1px solid #3199ab;
+    border-radius: 20px;
+}
+.subscribe .subscribe-info .btn,
+#closeBtn {
+    margin-left: 0.5rem;
+    border-radius: 25px;
+    padding: 10px 15px !important;
+}
+#submit-lighBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #455a6448;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#submit-lighBox .lighBox-content{
+    width: 410px;
+    height: 410px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+#submit-lighBox .lightBox-info {color: #455a64;}
+
+
+
+footer{
+    background-image: url(../img/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.footer {
+   
+    background-color:rgba(101, 97, 97, 0.7);
+    top: 0;
+    bottom: 0;
+    height: 25%;
+
+}
+footer i {
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 50px;
+}
+
+footer i:hover {
+    color: #ce0dd8;
+}
+.pprr{
+    padding-top: 5%;
+}
+
+
+
+
